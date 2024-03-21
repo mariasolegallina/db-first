@@ -1,0 +1,16 @@
+PK  id                      BIGINT          NOT_NULL
+    in vendita              TINYINT         NOT_NULL
+    stato (nuovo o usato)   VARCHAR(10)     NOT_NULL
+    marca                   VARCHAR(40)     NOT_NULL
+    modello                 VARCHAR(40)     NOT_NULL
+    prezzo                  DOUBLE(8, 2)    NOT_NULL
+    immatricolazione        DATE            NULL
+    cambio                  VARCHAR(10)     NOT_NULL
+    cilindrata              VARCHAR(10)     NOT_NULL
+    Potenza                 VARCHAR(20)     NOT_NULL
+    trazione                VARCHAR(10)     NOT_NULL
+    chilometraggio          MEDIUMINT       NULL
+    carburante              VARCHAR(25)     NOT_NULL
+    Portiere                TINYINT         NOT_NULL
+    colore                  VARCHAR()       NOT_NULL
+    numero di sedili        TINYINT         NOT_NULL
